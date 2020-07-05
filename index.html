@@ -13,35 +13,11 @@
  
   </head>
   <body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-      <script type="text/javascript">
-    $(document).ready(function() {
-      var count = 0;
-      var counter = setInterval(function() {
-        if (count < 101) {
-          $(".count").text(count);
-          $(".loader").css("width", count + "%");
-          count++;
-        } else {
-          clearInterval(counter);
-        }
-      }, 40);
-    });
-  </script>
-    
- <section>
-    <div class="loader"></div>
-    <div class="count" style="font-family: Anton"></div>
-
-
-  </section>
-       <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
   Launch demo modal
 </button>
 
-<!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
